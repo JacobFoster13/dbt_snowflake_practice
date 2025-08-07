@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+    - name: jaffle_shop
+      description: This is a replica of some Postgres database
+      database: raw
+      schema: jaffle_shop
+      tables:
+          - name: customers
+            description: table about customers
+          - name: orders
+            description: table about orders
